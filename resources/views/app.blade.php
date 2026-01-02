@@ -16,7 +16,6 @@
         @inertiaHead
     </head>
     <body class="font-sans antialiased">
-        <!-- THEMATIC PRELOADER -->
         <div id="preloader">
             <div class="preloader-title">
                 penStashem
@@ -30,7 +29,6 @@
         </div>
 
         <style>
-            /* --- PRELOADER STYLES --- */
             #preloader {
                 position: fixed;
                 top: 0;
@@ -77,7 +75,6 @@
                 color: #888;
             }
 
-            /* --- ANIMATIONS & UTILS --- */
             @keyframes lineGrow {
                 to { transform: scaleX(1); }
             }
@@ -107,7 +104,6 @@
 
         @inertia
 
-        <!-- PAGE NAVIGATION SPINNER -->
         <div id="page-spinner">
             <svg class="spinner" viewBox="0 0 50 50">
                 <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
@@ -115,14 +111,12 @@
         </div>
 
         <style>
-            /* --- CSS VARIABLES FOR THEMING --- */
             :root {
                 --spinner-bg: rgba(255, 255, 255, 0.9);
                 --spinner-stroke: #000000;
                 --spinner-shadow: rgba(0, 0, 0, 0.15);
             }
 
-            /* Dark Mode via Media Query */
             @media (prefers-color-scheme: dark) {
                 :root {
                     --spinner-bg: rgba(0, 0, 0, 0.8);
@@ -131,14 +125,12 @@
                 }
             }
 
-            /* Dark Mode via Manual Class (Tailwind) */
             html.dark, body.dark {
                 --spinner-bg: rgba(0, 0, 0, 0.8);
                 --spinner-stroke: #ffffff;
                 --spinner-shadow: rgba(255, 255, 255, 0.1);
             }
 
-            /* --- SPINNER COMPONENT --- */
             #page-spinner {
                 position: fixed;
                 bottom: calc(25px + env(safe-area-inset-bottom, 0px));
@@ -146,7 +138,6 @@
                 width: 50px;
                 height: 50px;
                 
-                /* Use Variables */
                 background: var(--spinner-bg);
                 box-shadow: 0 4px 12px var(--spinner-shadow);
                 
@@ -170,12 +161,11 @@
             }
             
             .spinner .path {
-                stroke: var(--spinner-stroke); /* Use Variable */
+                stroke: var(--spinner-stroke);
                 stroke-linecap: round;
                 animation: dash 1.5s ease-in-out infinite;
             }
             
-            /* Visibility Toggle */
             .spinner-visible {
                 opacity: 1 !important;
                 visibility: visible !important;
@@ -191,24 +181,5 @@
                 100% { stroke-dasharray: 90, 150; stroke-dashoffset: -124; }
             }
         </style>
-
-        <!-- LENIS SMOOTH SCROLL -->
-        <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
-        <script>
-            window.lenis = new Lenis({
-                duration: 1.2,
-                easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-                smooth: true,
-            });
-
-            window.lenis.stop();
-
-            function raf(time) {
-                window.lenis.raf(time);
-                requestAnimationFrame(raf);
-            }
-
-            requestAnimationFrame(raf);
-        </script>
     </body>
 </html>
