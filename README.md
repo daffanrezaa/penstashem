@@ -1,385 +1,643 @@
-# penStashem
+# penStashem# penStashem
 
-Personal Finance Tracker with Monochrome Editorial Design
+Personal Finance Tracker with Monochrome Editorial DesignPersonal Finance Tracker with Monochrome Editorial Design
 
-![Laravel](https://img.shields.io/badge/Laravel-12-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-3-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
-![Inertia](https://img.shields.io/badge/Inertia.js-1-9553E9?style=flat-square)
-![Tailwind](https://img.shields.io/badge/Tailwind-3-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-12-FF2D20?style=flat-square&logo=laravel&logoColor=white)![Laravel](https://img.shields.io/badge/Laravel-12-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 
-[Live Demo](https://penstashem.up.railway.app) | [Report Bug](https://github.com/daffanrezaa/penstashem/issues) | [Request Feature](https://github.com/daffanrezaa/penstashem/issues)
+![Vue.js](https://img.shields.io/badge/Vue.js-3-4FC08D?style=flat-square&logo=vue.js&logoColor=white)![Vue.js](https://img.shields.io/badge/Vue.js-3-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
 
-## About
+![Inertia](https://img.shields.io/badge/Inertia.js-1-9553E9?style=flat-square)![Inertia](https://img.shields.io/badge/Inertia.js-1-9553E9?style=flat-square)
 
-penStashem is a modern personal finance tracking application built with Laravel and Vue.js. Track your income and expenses, visualize financial trends through interactive charts, manage budget categories, and maintain comprehensive transaction records.
+![Tailwind](https://img.shields.io/badge/Tailwind-3-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)![Tailwind](https://img.shields.io/badge/Tailwind-3-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 
-The application features a newspaper-inspired monochrome design with dual themes: Morning Edition (light mode) and Midnight Edition (dark mode).
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-316192?style=flat-square&logo=postgresql&logoColor=white)![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-316192?style=flat-square&logo=postgresql&logoColor=white)
 
-## Features
+[Live Demo](https://penstashem.up.railway.app) | [Report Bug](https://github.com/daffanrezaa/penstashem/issues) | [Request Feature](https://github.com/daffanrezaa/penstashem/issues)[Live Demo](https://penstashem.up.railway.app) | [Report Bug](https://github.com/daffanrezaa/penstashem/issues) | [Request Feature](https://github.com/daffanrezaa/penstashem/issues)
 
-### Dashboard & Analytics
+## About## About
 
-- Real-time financial summary with income, expenses, and net balance
-- Daily burn rate calculations
-- Interactive line charts for transaction trends
-- Doughnut charts for category-wise breakdowns
-- Smooth scroll animations powered by Lenis and GSAP
+penStashem is a modern personal finance tracking application built with Laravel and Vue.js. Track your income and expenses, visualize financial trends through interactive charts, manage budget categories, and maintain comprehensive transaction records.penStashem is a modern personal finance tracking application built with Laravel and Vue.js. Track your income and expenses, visualize financial trends through interactive charts, manage budget categories, and maintain comprehensive transaction records.
 
-### Transaction Management
+The application features a newspaper-inspired monochrome design with dual themes: Morning Edition (light mode) and Midnight Edition (dark mode).The application features a newspaper-inspired monochrome design with dual themes: Morning Edition (light mode) and Midnight Edition (dark mode).
 
-- Create, read, update, and delete transactions
-- Real-time search across all fields
-- Filter by category, date range, and type
-- Optional notes for transaction context
-- Pagination for large datasets
+## Features## Features
 
-### Category System
+### Dashboard & Analytics### Dashboard & Analytics
 
-- Custom category creation
-- Separate income and expense categories
-- Visual type indicators
-- Category-wise spending analytics
+- Real-time financial summary with income, expenses, and net balance- Real-time financial summary with income, expenses, and net balance
 
-### User Profile
+- Daily burn rate calculations- Daily burn rate calculations
 
-- Profile information management
-- Secure password updates
-- Account deletion with confirmation
-- Session-based authentication
+- Interactive line charts for transaction trends- Interactive line charts for transaction trends
 
-### Theme System
+- Doughnut charts for category-wise breakdowns- Doughnut charts for category-wise breakdowns
 
-- Light mode with paper texture overlay
-- Dark mode optimized for reduced eye strain
-- Instant theme switching
-- Preference persistence in localStorage
+- Smooth scroll animations powered by Lenis and GSAP- Smooth scroll animations powered by Lenis and GSAP
 
-## Tech Stack
+### Transaction Management### Transaction Management
 
-**Backend**
+- Create, read, update, and delete transactions- Create, read, update, and delete transactions
 
-- Laravel 12 (PHP 8.2+)
-- PostgreSQL 17 / MySQL 8+ / SQLite 3
-- Eloquent ORM
-- Laravel Breeze Authentication
+- Real-time search across all fields- Real-time search across all fields
 
-**Frontend**
+- Filter by category, date range, and type- Filter by category, date range, and type
 
-- Vue 3 (Composition API)
-- Inertia.js for SPA functionality
-- Tailwind CSS utility-first styling
-- Chart.js for data visualization
-- GSAP for animations
-- Lenis for smooth scrolling
+- Optional notes for transaction context- Optional notes for transaction context
 
-**Build Tools**
+- Pagination for large datasets- Pagination for large datasets
 
-- Vite 6 for asset bundling
-- PostCSS for CSS processing
-- Composer for PHP dependencies
-- NPM for JavaScript packages
+### Category System### Category System
 
-**Deployment**
+- Custom category creation- Custom category creation
 
-- Railway platform
-- Nixpacks build system
-- PostgreSQL managed database
-- Automatic deployments from Git
+- Separate income and expense categories- Separate income and expense categories
 
-## Installation
+- Visual type indicators- Visual type indicators
 
-### Prerequisites
+- Category-wise spending analytics- Category-wise spending analytics
 
-- PHP 8.2 or higher
-- Composer 2.7+
-- Node.js 18+
-- PostgreSQL/MySQL/SQLite
-- Git
+### User Profile### User Profile
 
-### Setup
+- Profile information management- Profile information management
 
-Clone the repository:
+- Secure password updates- Secure password updates
 
-```bash
-git clone https://github.com/daffanrezaa/penstashem.git
-cd penstashem
+- Account deletion with confirmation- Account deletion with confirmation
+
+- Session-based authentication- Session-based authentication
+
+### Theme System### Theme System
+
+- Light mode with paper texture overlay- Light mode with paper texture overlay
+
+- Dark mode optimized for reduced eye strain- Dark mode optimized for reduced eye strain
+
+- Instant theme switching- Instant theme switching
+
+- Preference persistence in localStorage- Preference persistence in localStorage
+
+## Tech Stack## Tech Stack
+
+**Backend\*\***Backend\*\*
+
+- Laravel 12 (PHP 8.2+)- Laravel 12 (PHP 8.2+)
+
+- PostgreSQL 17 / MySQL 8+ / SQLite 3- PostgreSQL 17 / MySQL 8+ / SQLite 3
+
+- Eloquent ORM- Eloquent ORM
+
+- Laravel Breeze Authentication- Laravel Breeze Authentication
+
+**Frontend\*\***Frontend\*\*
+
+- Vue 3 (Composition API)- Vue 3 (Composition API)
+
+- Inertia.js for SPA functionality- Inertia.js for SPA functionality
+
+- Tailwind CSS utility-first styling- Tailwind CSS utility-first styling
+
+- Chart.js for data visualization- Chart.js for data visualization
+
+- GSAP for animations- GSAP for animations
+
+- Lenis for smooth scrolling- Lenis for smooth scrolling
+
+**Build Tools\*\***Build Tools\*\*
+
+- Vite 6 for asset bundling- Vite 6 for asset bundling
+
+- PostCSS for CSS processing- PostCSS for CSS processing
+
+- Composer for PHP dependencies- Composer for PHP dependencies
+
+- NPM for JavaScript packages- NPM for JavaScript packages
+
+**Deployment\*\***Deployment\*\*
+
+- Railway platform- Railway platform
+
+- Nixpacks build system- Nixpacks build system
+
+- PostgreSQL managed database- PostgreSQL managed database
+
+- Automatic deployments from Git- Automatic deployments from Git
+
+## Installation## Installation
+
+### Prerequisites### Prerequisites
+
+- PHP 8.2 or higher- PHP 8.2 or higher
+
+- Composer 2.7+- Composer 2.7+
+
+- Node.js 18+- Node.js 18+
+
+- PostgreSQL/MySQL/SQLite- PostgreSQL/MySQL/SQLite
+
+- Git- Git
+
+### Setup### Setup
+
+Clone the repository:Clone the repository:
+
+`bash`bash
+
+git clone https://github.com/daffanrezaa/penstashem.gitgit clone https://github.com/daffanrezaa/penstashem.git
+
+cd penstashemcd penstashem
+
+````
+
+
+
+Install dependencies:Install dependencies:
+
+
+
+```bash```bash
+
+composer installcomposer install
+
+npm installnpm install
+
+````
+
+Configure environment:Configure environment:
+
+`bash`bash
+
+cp .env.example .envcp .env.example .env
+
+php artisan key:generatephp artisan key:generate
+
+````
+
+
+
+Edit `.env` file with your database credentials:Edit `.env` file with your database credentials:
+
+
+
+```env```env
+
+DB_CONNECTION=pgsqlDB_CONNECTION=pgsql
+
+DB_HOST=127.0.0.1DB_HOST=127.0.0.1
+
+DB_PORT=5432DB_PORT=5432
+
+DB_DATABASE=penstashemDB_DATABASE=penstashem
+
+DB_USERNAME=your_usernameDB_USERNAME=your_username
+
+DB_PASSWORD=your_passwordDB_PASSWORD=your_password
+
+````
+
+Run migrations:Run migrations:
+
+`bash`bash
+
+php artisan migratephp artisan migrate
+
+````
+
+
+
+Optionally seed demo data:Optionally seed demo data:
+
+
+
+```bash```bash
+
+php artisan db:seedphp artisan db:seed
+
+````
+
+Build assets:Build assets:
+
+`bash`bash
+
+npm run devnpm run dev
+
+````
+
+
+
+Start development server:Start development server:
+
+
+
+```bash```bash
+
+php artisan servephp artisan serve
+
+````
+
+Visit `http://localhost:8000`Visit `http://localhost:8000`
+
+## Usage## Usage
+
+### Create Admin User### Create Admin User
+
+`bash`bash
+
+php artisan user:create-admin admin@example.com "Admin Name" passwordphp artisan user:create-admin admin@example.com "Admin Name" password
+
+````
+
+
+
+### Available Commands### Available Commands
+
+
+
+```bash```bash
+
+# Database operations# Database operations
+
+php artisan migrate              # Run migrationsphp artisan migrate              # Run migrations
+
+php artisan db:seed             # Seed databasephp artisan db:seed             # Seed database
+
+php artisan db:check-tables     # Verify database connectionphp artisan db:check-tables     # Verify database connection
+
+
+
+# Cache management# Cache management
+
+php artisan cache:clear         # Clear application cachephp artisan cache:clear         # Clear application cache
+
+php artisan config:clear        # Clear configuration cachephp artisan config:clear        # Clear configuration cache
+
+php artisan route:clear         # Clear route cachephp artisan route:clear         # Clear route cache
+
+php artisan view:clear          # Clear compiled viewsphp artisan view:clear          # Clear compiled views
+
+
+
+# Production optimization# Production optimization
+
+php artisan optimize            # Optimize for productionphp artisan optimize            # Optimize for production
+
+````
+
+## Deployment## Deployment
+
+### Railway### Railway
+
+This application is configured for Railway deployment.This application is configured for Railway deployment.
+
+**Quick Deploy:\*\***Quick Deploy:\*\*
+
+1. Fork this repository1. Fork this repository
+
+2. Sign up at [railway.app](https://railway.app)2. Sign up at [railway.app](https://railway.app)
+
+3. Create new project from GitHub repo3. Create new project from GitHub repo
+
+4. Add PostgreSQL database4. Add PostgreSQL database
+
+5. Set environment variables5. Set environment variables
+
+6. Deploy automatically6. Deploy automatically
+
+**Environment Variables:\*\***Environment Variables:\*\*
+
+`bash`bash
+
+APP_KEY=base64:your-generated-keyAPP_KEY=base64:your-generated-key
+
+APP_ENV=productionAPP_ENV=production
+
+APP_DEBUG=falseAPP_DEBUG=false
+
+APP_URL=https://your-app.up.railway.appAPP_URL=https://your-app.up.railway.app
+
+DB_CONNECTION=pgsqlDB_CONNECTION=pgsql
+
+DB_HOST=postgres.railway.internalDB_HOST=postgres.railway.internal
+
+DB_PORT=5432DB_PORT=5432
+
+DB_DATABASE=railwayDB_DATABASE=railway
+
+DB_USERNAME=postgresDB_USERNAME=postgres
+
+DB_PASSWORD=your-passwordDB_PASSWORD=your-password
+
+SESSION_DRIVER=cookieSESSION_DRIVER=cookie
+
+CACHE_STORE=fileCACHE_STORE=file
+
+TRUSTED_PROXIES=_TRUSTED_PROXIES=_
+
 ```
 
-Install dependencies:
 
-```bash
-composer install
-npm install
-```
 
-Configure environment:
+The `nixpacks.toml` configuration automatically handles:The `nixpacks.toml` configuration automatically handles:
 
-```bash
-cp .env.example .env
-php artisan key:generate
-```
 
-Edit `.env` file with your database credentials:
 
-```env
-DB_CONNECTION=pgsql
-DB_HOST=127.0.0.1
-DB_PORT=5432
-DB_DATABASE=penstashem
-DB_USERNAME=your_username
-DB_PASSWORD=your_password
-```
+- Dependency installation- Dependency installation
 
-Run migrations:
+- Asset compilation- Asset compilation
 
-```bash
-php artisan migrate
-```
+- Database migrations- Database migrations
 
-Optionally seed demo data:
+- Server startup- Server startup
 
-```bash
-php artisan db:seed
-```
 
-Build assets:
 
-```bash
-npm run dev
-```
+## Project Structure## Project Structure
 
-Start development server:
 
-```bash
-php artisan serve
-```
-
-Visit `http://localhost:8000`
-
-## Usage
-
-### Create Admin User
-
-```bash
-php artisan user:create-admin admin@example.com "Admin Name" password
-```
-
-### Available Commands
-
-```bash
-# Database operations
-php artisan migrate              # Run migrations
-php artisan db:seed             # Seed database
-php artisan db:check-tables     # Verify database connection
-
-# Cache management
-php artisan cache:clear         # Clear application cache
-php artisan config:clear        # Clear configuration cache
-php artisan route:clear         # Clear route cache
-php artisan view:clear          # Clear compiled views
-
-# Production optimization
-php artisan optimize            # Optimize for production
-```
-
-## Deployment
-
-### Railway
-
-This application is configured for Railway deployment.
-
-**Quick Deploy:**
-
-1. Fork this repository
-2. Sign up at [railway.app](https://railway.app)
-3. Create new project from GitHub repo
-4. Add PostgreSQL database
-5. Set environment variables
-6. Deploy automatically
-
-**Environment Variables:**
-
-```bash
-APP_KEY=base64:your-generated-key
-APP_ENV=production
-APP_DEBUG=false
-APP_URL=https://your-app.up.railway.app
-
-DB_CONNECTION=pgsql
-DB_HOST=postgres.railway.internal
-DB_PORT=5432
-DB_DATABASE=railway
-DB_USERNAME=postgres
-DB_PASSWORD=your-password
-
-SESSION_DRIVER=cookie
-CACHE_STORE=file
-TRUSTED_PROXIES=*
-```
-
-The `nixpacks.toml` configuration automatically handles:
-
-- Dependency installation
-- Asset compilation
-- Database migrations
-- Server startup
-
-## Project Structure
 
 ```
-penstashem/
-├── app/
-│   ├── Console/Commands/        # Artisan commands
-│   ├── Http/Controllers/        # Application controllers
-│   ├── Http/Middleware/         # Custom middleware
-│   ├── Http/Requests/           # Form validation
-│   └── Models/                  # Eloquent models
-├── database/
-│   ├── migrations/              # Database schema
-│   └── seeders/                 # Sample data
-├── resources/
-│   ├── css/                     # Stylesheets
-│   ├── js/
-│   │   ├── Components/          # Vue components
-│   │   ├── Layouts/             # Page layouts
-│   │   ├── Pages/               # Inertia pages
-│   │   └── composables/         # Vue composables
-│   └── views/                   # Blade templates
-├── routes/                      # Application routes
-├── public/                      # Public assets
-├── config/                      # Configuration files
-├── .env.example                 # Environment template
-├── composer.json                # PHP dependencies
-├── package.json                 # NPM dependencies
-├── nixpacks.toml                # Railway configuration
-└── vite.config.js               # Build configuration
-```
 
-## Testing
+penstashem/penstashem/
 
-Run the test suite:
+├── app/├── app/
 
-```bash
-php artisan test
-```
+│ ├── Console/Commands/ # Artisan commands│ ├── Console/Commands/ # Artisan commands
 
-Run specific test suites:
+│ ├── Http/Controllers/ # Application controllers│ ├── Http/Controllers/ # Application controllers
 
-```bash
-php artisan test --testsuite=Feature
-php artisan test --testsuite=Unit
-```
+│ ├── Http/Middleware/ # Custom middleware│ ├── Http/Middleware/ # Custom middleware
 
-Generate coverage report:
+│ ├── Http/Requests/ # Form validation│ ├── Http/Requests/ # Form validation
 
-```bash
-php artisan test --coverage
-```
+│ └── Models/ # Eloquent models│ └── Models/ # Eloquent models
 
-## Performance
+├── database/├── database/
 
-**Optimizations:**
+│ ├── migrations/ # Database schema│ ├── migrations/ # Database schema
 
-- Database query eager loading
-- Indexed columns for faster queries
-- Asset minification and compression
-- Code splitting with Vite
-- Cached configuration in production
-- Lazy loading for charts
-- Debounced search inputs
+│ └── seeders/ # Sample data│ └── seeders/ # Sample data
 
-**Caching:**
+├── resources/├── resources/
 
-```bash
-php artisan config:cache
-php artisan route:cache
-php artisan view:cache
-```
+│ ├── css/ # Stylesheets│ ├── css/ # Stylesheets
 
-## Security
+│ ├── js/│ ├── js/
 
-- Bcrypt password hashing
-- CSRF protection on all forms
-- SQL injection prevention via ORM
-- XSS protection through Vue escaping
-- HTTPS enforcement in production
-- Secure cookie settings
-- Rate limiting on authentication
+│ │ ├── Components/ # Vue components│ │ ├── Components/ # Vue components
 
-## Troubleshooting
+│ │ ├── Layouts/ # Page layouts│ │ ├── Layouts/ # Page layouts
 
-**Database connection failed:**
+│ │ ├── Pages/ # Inertia pages│ │ ├── Pages/ # Inertia pages
 
-```bash
-php artisan db:check-tables
-```
+│ │ └── composables/ # Vue composables│ │ └── composables/ # Vue composables
 
-**Vite manifest not found:**
+│ └── views/ # Blade templates│ └── views/ # Blade templates
 
-```bash
-npm run build
-php artisan optimize:clear
-```
+├── routes/ # Application routes├── routes/ # Application routes
 
-**419 Page Expired:**
+├── public/ # Public assets├── public/ # Public assets
 
-```bash
-# Clear browser cookies
-# Verify APP_KEY is set in .env
-# Check session driver configuration
-```
+├── config/ # Configuration files├── config/ # Configuration files
 
-**Migration errors:**
+├── .env.example # Environment template├── .env.example # Environment template
 
-```bash
-php artisan migrate:status
-php artisan migrate:fresh
-```
+├── composer.json # PHP dependencies├── composer.json # PHP dependencies
 
-## Contributing
+├── package.json # NPM dependencies├── package.json # NPM dependencies
 
-Contributions are welcome. Please follow these steps:
+├── nixpacks.toml # Railway configuration├── nixpacks.toml # Railway configuration
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -m 'Add improvement'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Open a Pull Request
+└── vite.config.js # Build configuration└── vite.config.js # Build configuration
 
-## License
+````
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
 
-**Frameworks:**
+## Testing## Testing
 
-- [Laravel](https://laravel.com) - PHP Framework
-- [Vue.js](https://vuejs.org) - JavaScript Framework
-- [Inertia.js](https://inertiajs.com) - SPA Adapter
-- [Tailwind CSS](https://tailwindcss.com) - CSS Framework
 
-**Libraries:**
 
-- [Chart.js](https://www.chartjs.org) - Data Visualization
-- [GSAP](https://greensock.com/gsap/) - Animation Library
-- [Lenis](https://lenis.studiofreight.com/) - Smooth Scroll
+Run the test suite:Run the test suite:
 
-**Services:**
 
-- [Railway](https://railway.app) - Hosting Platform
-- [PostgreSQL](https://www.postgresql.org) - Database System
 
----
+```bash```bash
 
-<div align="center">
+php artisan testphp artisan test
 
-**penStashem** © 2026 by Daffan Reza
+````
 
-[GitHub](https://github.com/daffanrezaa/penstashem) • [Live Demo](https://penstashem.up.railway.app) • [Report Issues](https://github.com/daffanrezaa/penstashem/issues)
+Run specific test suites:Run specific test suites:
 
-</div>
+`bash`bash
+
+php artisan test --testsuite=Featurephp artisan test --testsuite=Feature
+
+php artisan test --testsuite=Unitphp artisan test --testsuite=Unit
+
+````
+
+
+
+Generate coverage report:Generate coverage report:
+
+
+
+```bash```bash
+
+php artisan test --coveragephp artisan test --coverage
+
+````
+
+## Performance## Performance
+
+**Optimizations:\*\***Optimizations:\*\*
+
+- Database query eager loading- Database query eager loading
+
+- Indexed columns for faster queries- Indexed columns for faster queries
+
+- Asset minification and compression- Asset minification and compression
+
+- Code splitting with Vite- Code splitting with Vite
+
+- Cached configuration in production- Cached configuration in production
+
+- Lazy loading for charts- Lazy loading for charts
+
+- Debounced search inputs- Debounced search inputs
+
+**Caching:\*\***Caching:\*\*
+
+`bash`bash
+
+php artisan config:cachephp artisan config:cache
+
+php artisan route:cachephp artisan route:cache
+
+php artisan view:cachephp artisan view:cache
+
+````
+
+
+
+## Security## Security
+
+
+
+- Bcrypt password hashing- Bcrypt password hashing
+
+- CSRF protection on all forms- CSRF protection on all forms
+
+- SQL injection prevention via ORM- SQL injection prevention via ORM
+
+- XSS protection through Vue escaping- XSS protection through Vue escaping
+
+- HTTPS enforcement in production- HTTPS enforcement in production
+
+- Secure cookie settings- Secure cookie settings
+
+- Rate limiting on authentication- Rate limiting on authentication
+
+
+
+## Troubleshooting## Troubleshooting
+
+
+
+**Database connection failed:****Database connection failed:**
+
+
+
+```bash```bash
+
+php artisan db:check-tablesphp artisan db:check-tables
+
+````
+
+**Vite manifest not found:\*\***Vite manifest not found:\*\*
+
+`bash`bash
+
+npm run buildnpm run build
+
+php artisan optimize:clearphp artisan optimize:clear
+
+````
+
+
+
+**419 Page Expired:****419 Page Expired:**
+
+
+
+```bash```bash
+
+# Clear browser cookies# Clear browser cookies
+
+# Verify APP_KEY is set in .env# Verify APP_KEY is set in .env
+
+# Check session driver configuration# Check session driver configuration
+
+````
+
+**Migration errors:\*\***Migration errors:\*\*
+
+`bash`bash
+
+php artisan migrate:statusphp artisan migrate:status
+
+php artisan migrate:freshphp artisan migrate:fresh
+
+``````
+
+
+
+## Contributing## Contributing
+
+
+
+Contributions are welcome. Please follow these steps:Contributions are welcome. Please follow these steps:
+
+
+
+1. Fork the repository1. Fork the repository
+
+2. Create a feature branch (`git checkout -b feature/improvement`)2. Create a feature branch (`git checkout -b feature/improvement`)
+
+3. Commit your changes (`git commit -m 'Add improvement'`)3. Commit your changes (`git commit -m 'Add improvement'`)
+
+4. Push to the branch (`git push origin feature/improvement`)4. Push to the branch (`git push origin feature/improvement`)
+
+5. Open a Pull Request5. Open a Pull Request
+
+
+
+## License## License
+
+
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) file for details.This project is licensed under the MIT License. See [LICENSE](LICENSE) file for details.
+
+
+
+## Acknowledgments## Acknowledgments
+
+
+
+**Frameworks:****Frameworks:**
+
+
+
+- [Laravel](https://laravel.com) - PHP Framework- [Laravel](https://laravel.com) - PHP Framework
+
+- [Vue.js](https://vuejs.org) - JavaScript Framework- [Vue.js](https://vuejs.org) - JavaScript Framework
+
+- [Inertia.js](https://inertiajs.com) - SPA Adapter- [Inertia.js](https://inertiajs.com) - SPA Adapter
+
+- [Tailwind CSS](https://tailwindcss.com) - CSS Framework- [Tailwind CSS](https://tailwindcss.com) - CSS Framework
+
+
+
+**Libraries:****Libraries:**
+
+
+
+- [Chart.js](https://www.chartjs.org) - Data Visualization- [Chart.js](https://www.chartjs.org) - Data Visualization
+
+- [GSAP](https://greensock.com/gsap/) - Animation Library- [GSAP](https://greensock.com/gsap/) - Animation Library
+
+- [Lenis](https://lenis.studiofreight.com/) - Smooth Scroll- [Lenis](https://lenis.studiofreight.com/) - Smooth Scroll
+
+
+
+**Services:****Services:**
+
+
+
+- [Railway](https://railway.app) - Hosting Platform- [Railway](https://railway.app) - Hosting Platform
+
+- [PostgreSQL](https://www.postgresql.org) - Database System- [PostgreSQL](https://www.postgresql.org) - Database System
+
+
+
+------
+
+
+
+<div align="center"><div align="center">
+
+
+
+**penStashem** © 2026 by Daffan Reza**penStashem** © 2026 by Daffan Reza
+
+
+
+[GitHub](https://github.com/daffanrezaa/penstashem) • [Live Demo](https://penstashem.up.railway.app) • [Report Issues](https://github.com/daffanrezaa/penstashem/issues)[GitHub](https://github.com/daffanrezaa/penstashem) • [Live Demo](https://penstashem.up.railway.app) • [Report Issues](https://github.com/daffanrezaa/penstashem/issues)
+
+
+
+</div></div>
+
 
 The dashboard provides real-time financial overview with the following components:- Category-based organization
 
@@ -2030,3 +2288,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 Copyright © 2026 Daffan Reza. All rights reserved.
 
 </div>
+``````
