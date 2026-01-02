@@ -1,372 +1,694 @@
-# penStashem — Personal Finance Tracker# 💰 penStashem — Personal Finance Tracker<<<<<<< HEAD
+# penStashem — Personal Finance Tracker# penStashem — Personal Finance Tracker# 💰 penStashem — Personal Finance Tracker<<<<<<< HEAD
 
-<div align="center"># stashitdezz
+<div align="center"><div align="center"># stashitdezz
 
-![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)<div align="center">=======
+![Laravel](https://img.shields.io/badge/Laravel-12-FF2D20?style=flat-square&logo=laravel&logoColor=white)![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)<div align="center">=======
 
-![Vue.js](https://img.shields.io/badge/Vue.js-3.x-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-3-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
 
-![Inertia](https://img.shields.io/badge/Inertia.js-1.x-9553E9?style=for-the-badge&logo=inertia&logoColor=white)# penStashem — The Daily Ledger
+![Inertia](https://img.shields.io/badge/Inertia.js-1-9553E9?style=flat-square)![Vue.js](https://img.shields.io/badge/Vue.js-3.x-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
 
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.x-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-3-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17.x-316192?style=for-the-badge&logo=postgresql&logoColor=white)![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-316192?style=flat-square&logo=postgresql&logoColor=white)![Inertia](https://img.shields.io/badge/Inertia.js-1.x-9553E9?style=for-the-badge&logo=inertia&logoColor=white)# penStashem — The Daily Ledger
 
-**Modern personal finance management system with monochrome editorial design**![Vue.js](https://img.shields.io/badge/Vue.js-3.x-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)![Project Banner](https://img.shields.io/badge/Status-Active-success?style=for-the-badge) ![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge) ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+Modern personal finance management system with monochrome editorial design![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.x-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-[Live Demo](https://penstashem.up.railway.app) • [Documentation](#documentation) • [Installation](#installation) • [Contributing](#contributing)![Inertia](https://img.shields.io/badge/Inertia.js-1.x-9553E9?style=for-the-badge&logo=inertia&logoColor=white)
+[Live Demo](https://penstashem.up.railway.app) · [Report Bug](https://github.com/daffanrezaa/penstashem/issues) · [Request Feature](https://github.com/daffanrezaa/penstashem/issues)![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17.x-316192?style=for-the-badge&logo=postgresql&logoColor=white)![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 
-</div>![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.x-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)**penStashem** is a modern, minimalist personal finance tracker designed with a monochrome editorial aesthetic. It helps you track your income and expenses, visualize your financial trends, and maintain control over your wealth with a seamless, single-page application experience.
+</div>**Modern personal finance management system with monochrome editorial design**![Vue.js](https://img.shields.io/badge/Vue.js-3.x-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)![Project Banner](https://img.shields.io/badge/Status-Active-success?style=for-the-badge) ![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge) ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
----![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17.x-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+---[Live Demo](https://penstashem.up.railway.app) • [Documentation](#documentation) • [Installation](#installation) • [Contributing](#contributing)![Inertia](https://img.shields.io/badge/Inertia.js-1.x-9553E9?style=for-the-badge&logo=inertia&logoColor=white)
 
-## Table of Contents## Overview
+## About</div>![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.x-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)**penStashem** is a modern, minimalist personal finance tracker designed with a monochrome editorial aesthetic. It helps you track your income and expenses, visualize your financial trends, and maintain control over your wealth with a seamless, single-page application experience.
 
-- [Overview](#overview)**A modern, minimalist personal finance tracker with elegant monochrome design**
+penStashem is a personal finance tracking application built with modern web technologies. The application features a newspaper-inspired monochrome design with dual themes: "Morning Edition" (light mode) and "Midnight Edition" (dark mode).---![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17.x-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
-- [Features](#features)
+Track income and expenses, visualize financial trends through interactive charts, manage budget categories, and maintain comprehensive transaction records—all within a seamless single-page application experience.## Table of Contents## Overview
 
-- [Technology Stack](#technology-stack)The application features a unique **"Morning Edition"** (Light) and **"Midnight Edition"** (Dark) theme, inspired by classic newspapers but built with bleeding-edge web technologies.
+## Features- [Overview](#overview)**A modern, minimalist personal finance tracker with elegant monochrome design**
 
-- [System Requirements](#system-requirements)
+### Dashboard & Analytics- [Features](#features)
+
+- Real-time financial summary with income, expenses, and net balance
+
+- Daily burn rate calculations- [Technology Stack](#technology-stack)The application features a unique **"Morning Edition"** (Light) and **"Midnight Edition"** (Dark) theme, inspired by classic newspapers but built with bleeding-edge web technologies.
+
+- Interactive line charts for transaction trends
+
+- Doughnut charts for category-wise breakdowns- [System Requirements](#system-requirements)
+
+- Smooth scroll animations powered by Lenis and GSAP
 
 - [Installation](#installation)[Live Demo](https://penstashem.up.railway.app) • [Report Bug](https://github.com/daffanrezaa/penstashem/issues) • [Request Feature](https://github.com/daffanrezaa/penstashem/issues)
-    - [Development Setup](#development-setup)
 
-    - [Environment Configuration](#environment-configuration)### Key Features
+### Transaction Management - [Development Setup](#development-setup)
 
-    - [Database Setup](#database-setup)
+- Create, read, update, and delete transactions
 
+- Real-time search across all fields - [Environment Configuration](#environment-configuration)### Key Features
+
+- Filter by category, date range, and type
+
+- Optional notes for transaction context - [Database Setup](#database-setup)
+
+- Pagination for large datasets
     - [Frontend Assets](#frontend-assets)</div>
-
-- [Usage](#usage)
-    - [Running the Application](#running-the-application)- **Interactive Dashboard**
-
-    - [Creating Admin User](#creating-admin-user)
-
-    - [Available Commands](#available-commands)--- - Real-time financial summary (Surplus/Deficit status).
-
-- [Deployment](#deployment)
-    - [Railway Platform](#railway-platform)- Dynamic Line Charts for daily trend analysis.
-
-    - [Environment Variables](#environment-variables)
-
-    - [Production Configuration](#production-configuration)## 📖 About The Project - Doughnut charts for Income & Outcome breakdown.
-
-- [Project Structure](#project-structure)
-
-- [API Documentation](#api-documentation)- Daily Burn Rate calculation.
-
-- [Testing](#testing)
-
-- [Performance Optimization](#performance-optimization)**penStashem** (Pen Your Stash) is a sophisticated personal finance management application that combines minimalist design with powerful financial tracking capabilities. Inspired by classic newspaper aesthetics, it features a unique dual-theme experience: **Morning Edition** (Light Mode) and **Midnight Edition** (Dark Mode).- **Transaction Management**
-
-- [Security Considerations](#security-considerations)
-
-- [Troubleshooting](#troubleshooting)- Easy entry for Income and Expenses.
-
-- [Contributing](#contributing)
-
-- [License](#license)### ✨ Key Features - Searchable transaction history.
-
-- [Acknowledgments](#acknowledgments)
-
-- Edit and Delete capabilities with secure modal confirmations.
-
----
-
-#### 📊 **Interactive Dashboard**- **Category Organization**
-
-## Overview
-
-- Real-time financial summary with surplus/deficit indicators - Create custom categories to group your spending.
-
-penStashem is a sophisticated personal finance tracking application built with modern web technologies. The application follows a newspaper-inspired monochrome design philosophy, featuring dual themes called "Morning Edition" (light mode) and "Midnight Edition" (dark mode).
-
-- Dynamic line charts for daily trend analysis - Indicators for Income vs. Expense categories.
-
-The system enables users to track income and expenses, visualize financial trends through interactive charts, manage budget categories, and maintain comprehensive transaction records. Built as a single-page application (SPA) using Inertia.js, it provides a seamless user experience without sacrificing the benefits of server-side routing and data handling.
-
-- Doughnut charts for income & expense breakdown- **Thematic Experience**
-
-### Design Philosophy
-
-- Daily burn rate calculation - Toggle between Light (Paper Texture) and Dark (Midnight) modes.
-
-- **Minimalist Interface**: Clean, distraction-free design focused on essential financial data
-
-- **Editorial Aesthetic**: Newspaper-inspired typography and layout patterns- Smooth scroll animations powered by Lenis - Fully responsive design for Desktop and Mobile.
-
-- **Responsive Architecture**: Mobile-first approach ensuring usability across all devices - Smooth animations and transitions.
-
-- **Performance-First**: Optimized for fast load times and smooth interactions
-
-- **Privacy-Focused**: Cookie-based sessions with no external tracking#### 💸 **Transaction Management**- **Secure Profile**
-
----- Quick entry for income and expenses - Profile management (Name, Email).
-
-## Features- Advanced search and filter capabilities - Password updates.
-
-### Dashboard & Analytics- Edit and delete with secure confirmation modals - Secure account deletion.
-
-The dashboard provides real-time financial overview with the following components:- Category-based organization
-
-- **Financial Summary Cards**- Real-time balance updates## Tech Stack
-    - Total income and expense calculations
-
-    - Net balance with surplus/deficit indicators#### 🏷️ **Category System**This project is built using the TALL stack (Tailwind, Alpine/Vue, Laravel, Livewire/Inertia) philosophy, leveraging the latest versions for maximum performance.
-
-    - Daily burn rate metrics
-
-    - Month-over-month comparisons- Custom category creation
-
-- **Interactive Visualizations**- Visual indicators for income vs. expense types- **Backend:** [Laravel 12](https://laravel.com) (PHP 8.2+)
-    - Line charts for daily transaction trends
-
-    - Doughnut charts for category-wise breakdowns- Easy category management interface- **Frontend:** [Vue 3](https://vuejs.org) (Composition API)
-
-    - Responsive chart sizing and animations
-
-    - Real-time data updates- **Adapter:** [Inertia.js](https://inertiajs.com) (Server-driven SPA)
-
-- **Advanced Animations**#### 🎨 **Premium User Experience**- **Styling:** [Tailwind CSS](https://tailwindcss.com) (Utility-first)
-    - Smooth scroll implementation using Lenis library
-
-    - GSAP-powered scroll-triggered animations- Dual theme system (Light/Dark modes)- **Database:** SQLite (Default) / MySQL compatible
-
-    - CSS3 transitions and keyframe animations
-
-    - Motion design with @vueuse/motion- Paper texture in light mode for authentic feel- **Charts:** [Chart.js](https://www.chartjs.org) via `vue-chartjs`
-
-### Transaction Management- Fully responsive design (Mobile, Tablet, Desktop)- **Animations:** `@vueuse/motion` & CSS3 Keyframes
-
-Complete CRUD operations for financial records:- Smooth GSAP animations and transitions
-
-- **Entry System**- Ultra-smooth scrolling with Lenis library## System Requirements
-    - Quick-add forms for income and expenses
-
-    - Category selection with visual indicators#### 🔐 **Security & Profile**Before you begin, ensure your machine has the following installed:
-
-    - Date picker with calendar interface
-
-    - Optional note/memo field for context- Secure authentication system
-
-- **Search & Filter**- Profile management (Name, Email)- **PHP** >= 8.2
-    - Real-time search across all transaction fields
-
-    - Category-based filtering- Password updates with validation- **Composer** (PHP Dependency Manager)
-
-    - Date range selection
-
-    - Type-based sorting (income/expense)- Account deletion protection- **Node.js** >= 18.x & **NPM**
-
-- **Editing Interface**- **Git**
-    - Modal-based edit forms
-
-    - Pre-populated data for modifications---
-
-    - Validation with error messaging
-
-    - Optimistic UI updates## Installation Guide
-
-- **Deletion Protection**## 🛠️ Tech Stack
-    - Confirmation modals for destructive actions
-
-    - Soft delete capability (optional)Follow these steps to set up the project locally:
-
-    - Bulk deletion support
-
-### **Backend**
 
 ### Category System
 
-- **Framework:** Laravel 12.x### 1. Clone the Repository
+- Custom category creation- [Usage](#usage)
 
-Flexible categorization for financial organization:
+- Separate income and expense categories - [Running the Application](#running-the-application)- **Interactive Dashboard**
 
-- **Language:** PHP 8.2+```bash
+- Visual type indicators
 
-- **Category Management**
+- Category-wise spending analytics - [Creating Admin User](#creating-admin-user)
+
+### User Profile - [Available Commands](#available-commands)--- - Real-time financial summary (Surplus/Deficit status).
+
+- Profile information management
+
+- Secure password updates- [Deployment](#deployment)
+
+- Account deletion with confirmation - [Railway Platform](#railway-platform)- Dynamic Line Charts for daily trend analysis.
+
+- Session-based authentication
+    - [Environment Variables](#environment-variables)
+
+### Theme System
+
+- Light mode with paper texture overlay - [Production Configuration](#production-configuration)## 📖 About The Project - Doughnut charts for Income & Outcome breakdown.
+
+- Dark mode optimized for reduced eye strain
+
+- Instant theme switching- [Project Structure](#project-structure)
+
+- Preference persistence in localStorage
+
+- [API Documentation](#api-documentation)- Daily Burn Rate calculation.
+
+## Tech Stack
+
+- [Testing](#testing)
+
+**Backend**
+
+- Laravel 12 (PHP 8.2+)- [Performance Optimization](#performance-optimization)**penStashem** (Pen Your Stash) is a sophisticated personal finance management application that combines minimalist design with powerful financial tracking capabilities. Inspired by classic newspaper aesthetics, it features a unique dual-theme experience: **Morning Edition** (Light Mode) and **Midnight Edition** (Dark Mode).- **Transaction Management**
+
+- PostgreSQL 17 / MySQL 8+ / SQLite 3
+
+- Eloquent ORM- [Security Considerations](#security-considerations)
+
+- Laravel Breeze Authentication
+
+- [Troubleshooting](#troubleshooting)- Easy entry for Income and Expenses.
+
+**Frontend**
+
+- Vue 3 (Composition API)- [Contributing](#contributing)
+
+- Inertia.js for SPA functionality
+
+- Tailwind CSS utility-first styling- [License](#license)### ✨ Key Features - Searchable transaction history.
+
+- Chart.js for data visualization
+
+- GSAP for animations- [Acknowledgments](#acknowledgments)
+
+- Lenis for smooth scrolling
+
+- Edit and Delete capabilities with secure modal confirmations.
+
+**Build Tools**
+
+- Vite 6 for asset bundling---
+
+- PostCSS for CSS processing
+
+- Composer for PHP dependencies#### 📊 **Interactive Dashboard**- **Category Organization**
+
+- NPM for JavaScript packages
+
+## Overview
+
+**Deployment**
+
+- Railway platform- Real-time financial summary with surplus/deficit indicators - Create custom categories to group your spending.
+
+- Nixpacks build system
+
+- PostgreSQL managed databasepenStashem is a sophisticated personal finance tracking application built with modern web technologies. The application follows a newspaper-inspired monochrome design philosophy, featuring dual themes called "Morning Edition" (light mode) and "Midnight Edition" (dark mode).
+
+- Automatic deployments from Git
+
+- Dynamic line charts for daily trend analysis - Indicators for Income vs. Expense categories.
+
+## Installation
+
+The system enables users to track income and expenses, visualize financial trends through interactive charts, manage budget categories, and maintain comprehensive transaction records. Built as a single-page application (SPA) using Inertia.js, it provides a seamless user experience without sacrificing the benefits of server-side routing and data handling.
+
+### Prerequisites
+
+- Doughnut charts for income & expense breakdown- **Thematic Experience**
+
+- PHP 8.2 or higher
+
+- Composer 2.7+### Design Philosophy
+
+- Node.js 18+
+
+- PostgreSQL/MySQL/SQLite- Daily burn rate calculation - Toggle between Light (Paper Texture) and Dark (Midnight) modes.
+
+- Git
+
+- **Minimalist Interface**: Clean, distraction-free design focused on essential financial data
+
+### Setup
+
+- **Editorial Aesthetic**: Newspaper-inspired typography and layout patterns- Smooth scroll animations powered by Lenis - Fully responsive design for Desktop and Mobile.
+
+Clone the repository:
+
+- **Responsive Architecture**: Mobile-first approach ensuring usability across all devices - Smooth animations and transitions.
+
+````bash
+
+git clone https://github.com/daffanrezaa/penstashem.git- **Performance-First**: Optimized for fast load times and smooth interactions
+
+cd penstashem
+
+```- **Privacy-Focused**: Cookie-based sessions with no external tracking#### 💸 **Transaction Management**- **Secure Profile**
+
+
+
+Install dependencies:---- Quick entry for income and expenses - Profile management (Name, Email).
+
+
+
+```bash## Features- Advanced search and filter capabilities - Password updates.
+
+composer install
+
+npm install### Dashboard & Analytics- Edit and delete with secure confirmation modals - Secure account deletion.
+
+````
+
+The dashboard provides real-time financial overview with the following components:- Category-based organization
+
+Configure environment:
+
+- **Financial Summary Cards**- Real-time balance updates## Tech Stack
+
+```bash - Total income and expense calculations
+
+cp .env.example .env
+
+php artisan key:generate    - Net balance with surplus/deficit indicators#### 🏷️ **Category System**This project is built using the TALL stack (Tailwind, Alpine/Vue, Laravel, Livewire/Inertia) philosophy, leveraging the latest versions for maximum performance.
+
+```
+
+    - Daily burn rate metrics
+
+Edit `.env` file with your database credentials:
+
+    - Month-over-month comparisons- Custom category creation
+
+```env
+
+DB_CONNECTION=pgsql- **Interactive Visualizations**- Visual indicators for income vs. expense types- **Backend:** [Laravel 12](https://laravel.com) (PHP 8.2+)
+
+DB_HOST=127.0.0.1    - Line charts for daily transaction trends
+
+DB_PORT=5432
+
+DB_DATABASE=penstashem    - Doughnut charts for category-wise breakdowns- Easy category management interface- **Frontend:** [Vue 3](https://vuejs.org) (Composition API)
+
+DB_USERNAME=your_username
+
+DB_PASSWORD=your_password    - Responsive chart sizing and animations
+
+```
+
+    - Real-time data updates- **Adapter:** [Inertia.js](https://inertiajs.com) (Server-driven SPA)
+
+Run migrations:
+
+- **Advanced Animations**#### 🎨 **Premium User Experience**- **Styling:** [Tailwind CSS](https://tailwindcss.com) (Utility-first)
+
+````bash - Smooth scroll implementation using Lenis library
+
+php artisan migrate
+
+```    - GSAP-powered scroll-triggered animations- Dual theme system (Light/Dark modes)- **Database:** SQLite (Default) / MySQL compatible
+
+
+
+Optionally seed demo data:    - CSS3 transitions and keyframe animations
+
+
+
+```bash    - Motion design with @vueuse/motion- Paper texture in light mode for authentic feel- **Charts:** [Chart.js](https://www.chartjs.org) via `vue-chartjs`
+
+php artisan db:seed
+
+```### Transaction Management- Fully responsive design (Mobile, Tablet, Desktop)- **Animations:** `@vueuse/motion` & CSS3 Keyframes
+
+
+
+Build assets:Complete CRUD operations for financial records:- Smooth GSAP animations and transitions
+
+
+
+```bash- **Entry System**- Ultra-smooth scrolling with Lenis library## System Requirements
+
+npm run dev    - Quick-add forms for income and expenses
+
+````
+
+    - Category selection with visual indicators#### 🔐 **Security & Profile**Before you begin, ensure your machine has the following installed:
+
+Start development server:
+
+    - Date picker with calendar interface
+
+```bash
+
+php artisan serve    - Optional note/memo field for context- Secure authentication system
+
+```
+
+- **Search & Filter**- Profile management (Name, Email)- **PHP** >= 8.2
+
+Visit `http://localhost:8000` - Real-time search across all transaction fields
+
+## Usage - Category-based filtering- Password updates with validation- **Composer** (PHP Dependency Manager)
+
+### Create Admin User - Date range selection
+
+````bash - Type-based sorting (income/expense)- Account deletion protection- **Node.js** >= 18.x & **NPM**
+
+php artisan user:create-admin admin@example.com "Admin Name" password
+
+```- **Editing Interface**- **Git**
+
+    - Modal-based edit forms
+
+### Available Commands
+
+    - Pre-populated data for modifications---
+
+```bash
+
+# Database operations    - Validation with error messaging
+
+php artisan migrate              # Run migrations
+
+php artisan db:seed             # Seed database    - Optimistic UI updates## Installation Guide
+
+php artisan db:check-tables     # Verify database connection
+
+- **Deletion Protection**## 🛠️ Tech Stack
+
+# Cache management    - Confirmation modals for destructive actions
+
+php artisan cache:clear         # Clear application cache
+
+php artisan config:clear        # Clear configuration cache    - Soft delete capability (optional)Follow these steps to set up the project locally:
+
+php artisan route:clear         # Clear route cache
+
+php artisan view:clear          # Clear compiled views    - Bulk deletion support
+
+
+
+# Production optimization### **Backend**
+
+php artisan optimize            # Optimize for production
+
+```### Category System
+
+
+
+## Deployment- **Framework:** Laravel 12.x### 1. Clone the Repository
+
+
+
+### RailwayFlexible categorization for financial organization:
+
+
+
+This application is configured for Railway deployment.- **Language:** PHP 8.2+```bash
+
+
+
+**Quick Deploy:**- **Category Management**
+
     - Create custom categories- **Database:** PostgreSQL 17.x (Production) / SQLite (Development)git clone https://github.com/yourusername/penstashem.git
 
-    - Assign income or expense type
+1. Fork this repository
 
-    - Color-coding for visual distinction- **ORM:** Eloquentcd penstashem
+2. Sign up at [railway.app](https://railway.app)    - Assign income or expense type
 
-    - Reusable across transactions
+3. Create new project from GitHub repo
 
-- **Authentication:** Laravel Breeze```
+4. Add PostgreSQL database    - Color-coding for visual distinction- **ORM:** Eloquentcd penstashem
 
-- **Category Analytics**
-    - Spending breakdown by category### **Frontend**### 2. Install Dependencies
+5. Set environment variables
 
-    - Category-wise trend analysis
+6. Deploy automatically    - Reusable across transactions
+
+
+
+**Environment Variables:**- **Authentication:** Laravel Breeze```
+
+
+
+```bash- **Category Analytics**
+
+APP_KEY=base64:your-generated-key    - Spending breakdown by category### **Frontend**### 2. Install Dependencies
+
+APP_ENV=production
+
+APP_DEBUG=false    - Category-wise trend analysis
+
+APP_URL=https://your-app.up.railway.app
 
     - Budget allocation tracking- **Framework:** Vue 3 (Composition API)Install PHP and JavaScript dependencies:
 
-### User Profile & Security- **SPA Adapter:** Inertia.js 1.x```bash
+DB_CONNECTION=pgsql
 
-Secure account management features:- **Styling:** Tailwind CSS 3.xcomposer install
+DB_HOST=postgres.railway.internal### User Profile & Security- **SPA Adapter:** Inertia.js 1.x```bash
 
-- **Profile Management**- **Build Tool:** Vite 6.xnpm install
+DB_PORT=5432
+
+DB_DATABASE=railwaySecure account management features:- **Styling:** Tailwind CSS 3.xcomposer install
+
+DB_USERNAME=postgres
+
+DB_PASSWORD=your-password- **Profile Management**- **Build Tool:** Vite 6.xnpm install
+
     - Update personal information (name, email)
 
-    - Profile customization options- **Charts:** Chart.js + vue-chartjs```
+SESSION_DRIVER=cookie
 
-    - Account activity logs
+CACHE_STORE=file    - Profile customization options- **Charts:** Chart.js + vue-chartjs```
 
-- **Animations:**
+TRUSTED_PROXIES=*
 
-- **Authentication System** - GSAP (ScrollTrigger)### 3. Environment Setup
-    - Secure login/logout functionality
+```    - Account activity logs
+
+
+
+The `nixpacks.toml` configuration automatically handles:- **Animations:**
+
+- Dependency installation
+
+- Asset compilation- **Authentication System** - GSAP (ScrollTrigger)### 3. Environment Setup
+
+- Database migrations    - Secure login/logout functionality
+
+- Server startup
 
     - Password change with validation - Lenis (Smooth Scroll)Copy the example environment file and generate your application key:
 
+## Project Structure
+
     - Email verification workflow
 
-    - Session management - @vueuse/motion```bash
+````
 
-- **Security Features** - CSS3 Keyframescp .env.example .env
-    - CSRF protection on all forms
+penstashem/ - Session management - @vueuse/motion```bash
 
-    - Password hashing with bcryptphp artisan key:generate
+├── app/
 
-    - Secure cookie handling
+│ ├── Console/Commands/ # Artisan commands- **Security Features** - CSS3 Keyframescp .env.example .env
 
-    - XSS prevention measures### **DevOps & Deployment**```
+│ ├── Http/Controllers/ # Application controllers - CSRF protection on all forms
 
-### Theme System- **Platform:** Railway
+│ ├── Http/Middleware/ # Custom middleware
 
-Dual-mode theme implementation:- **Build:** Nixpacks### 4. Database Setup
+│ ├── Http/Requests/ # Form validation - Password hashing with bcryptphp artisan key:generate
 
-- **Morning Edition (Light Mode)**- **CI/CD:** GitHub Actions (Auto-deploy on push)The project uses SQLite by default. Create the database file and run migrations:
-    - White background with black accents
+│ └── Models/ # Eloquent models
 
-    - Paper texture overlay for authenticity- **Session:** Cookie-based (Production)```bash
+├── database/ - Secure cookie handling
 
-    - High contrast for readability
+│ ├── migrations/ # Database schema
 
-    - Optimized for daylight viewing- **Cache:** File-based# Create SQLite file (Windows)
+│ └── seeders/ # Sample data - XSS prevention measures### **DevOps & Deployment**```
 
-- **Midnight Edition (Dark Mode)**type nul > database/database.sqlite
-    - Dark background (#1A1A1A)
+├── resources/
+
+│ ├── css/ # Stylesheets### Theme System- **Platform:** Railway
+
+│ ├── js/
+
+│ │ ├── Components/ # Vue componentsDual-mode theme implementation:- **Build:** Nixpacks### 4. Database Setup
+
+│ │ ├── Layouts/ # Page layouts
+
+│ │ ├── Pages/ # Inertia pages- **Morning Edition (Light Mode)**- **CI/CD:** GitHub Actions (Auto-deploy on push)The project uses SQLite by default. Create the database file and run migrations:
+
+│ │ └── composables/ # Vue composables - White background with black accents
+
+│ └── views/ # Blade templates
+
+├── routes/ # Application routes - Paper texture overlay for authenticity- **Session:** Cookie-based (Production)```bash
+
+├── public/ # Public assets
+
+├── config/ # Configuration files - High contrast for readability
+
+├── .env.example # Environment template
+
+├── composer.json # PHP dependencies - Optimized for daylight viewing- **Cache:** File-based# Create SQLite file (Windows)
+
+├── package.json # NPM dependencies
+
+├── nixpacks.toml # Railway configuration- **Midnight Edition (Dark Mode)**type nul > database/database.sqlite
+
+└── vite.config.js # Build configuration - Dark background (#1A1A1A)
+
+`````
 
     - White text with reduced brightness---
 
+## Testing
+
     - Reduced eye strain for night use
+
+Run the test suite:
 
     - OLED-friendly color scheme# Run Migrations & Seeders
 
-- **Theme Persistence**## 📋 System Requirementsphp artisan migrate --seed
-    - User preference saved in localStorage
+```bash
 
-    - Instant theme switching````
+php artisan test- **Theme Persistence**## 📋 System Requirementsphp artisan migrate --seed
 
-    - No page reload required
+```    - User preference saved in localStorage
 
-    - System preference detection- **PHP:** >= 8.2*(Note: If using MySQL, update `DB_CONNECTION` in `.env` before migrating)*
+
+
+Run specific test suites:    - Instant theme switching````
+
+
+
+```bash    - No page reload required
+
+php artisan test --testsuite=Feature
+
+php artisan test --testsuite=Unit    - System preference detection- **PHP:** >= 8.2*(Note: If using MySQL, update `DB_CONNECTION` in `.env` before migrating)*
+
+`````
 
 ---- **Composer:** >= 2.7
 
+Generate coverage report:
+
 ## Technology Stack- **Node.js:** >= 18.x### 5. Run the Application
 
-### Backend Framework- **NPM:** >= 9.xStart the local development server (handles both Laravel and Vite):
+```bash
+
+php artisan test --coverage### Backend Framework- **NPM:** >= 9.xStart the local development server (handles both Laravel and Vite):
+
+```
 
 **Laravel 12.x**- **Database:** PostgreSQL 13+ / MySQL 8+ / SQLite 3+```bash
 
+## Performance
+
 - Modern PHP framework with elegant syntax
 
-- Eloquent ORM for database interactionscomposer run dev
+**Optimizations:**
 
-- Built-in authentication with Laravel Breeze
+- Database query eager loading- Eloquent ORM for database interactionscomposer run dev
 
-- Artisan CLI for development tasks---```
+- Indexed columns for faster queries
 
-- Robust routing and middleware system
+- Asset minification and compression- Built-in authentication with Laravel Breeze
 
-Access the app at: `http://localhost:8000`
+- Code splitting with Vite
 
-**PHP 8.2+**
+- Cached configuration in production- Artisan CLI for development tasks---```
 
-- Latest language features and optimizations## 🚀 Installation
+- Lazy loading for charts
+
+- Debounced search inputs- Robust routing and middleware system
+
+**Caching:**Access the app at: `http://localhost:8000`
+
+```bash
+
+php artisan config:cache**PHP 8.2+**
+
+php artisan route:cache
+
+php artisan view:cache- Latest language features and optimizations## 🚀 Installation
+
+```
 
 - Type declarations and named arguments
 
+## Security
+
 - JIT compilation for improved performance## Usage
 
-- Enhanced error handling
+- Bcrypt password hashing
 
-### 1. Clone the Repository
+- CSRF protection on all forms- Enhanced error handling
 
-### Frontend Framework
+- SQL injection prevention via ORM
+
+- XSS protection through Vue escaping### 1. Clone the Repository
+
+- HTTPS enforcement in production
+
+- Secure cookie settings### Frontend Framework
+
+- Rate limiting on authentication
 
 1.  **Register/Login:** Create a new account to start your personal ledger.
 
+## Troubleshooting
+
 **Vue 3 (Composition API)**
 
-- Progressive JavaScript framework```bash2. **Add Categories:** Go to the Categories page to define your income sources (e.g., Salary, Freelance) and expense types (e.g., Food, Rent).
+**Database connection failed:**
 
-- Reactive data binding and computed properties
+`bash- Progressive JavaScript framework`bash2. **Add Categories:** Go to the Categories page to define your income sources (e.g., Salary, Freelance) and expense types (e.g., Food, Rent).
 
-- Component-based architecturegit clone https://github.com/daffanrezaa/penstashem.git3. **Record Transactions:** Use the Dashboard or Transactions page to log daily entries.
+php artisan db:check-tables
 
-- TypeScript support (optional)
+`````- Reactive data binding and computed properties
 
-cd penstashem4. **Analyze:** Watch the Dashboard update automatically with your financial health status.
 
-**Inertia.js 1.x**
 
-- Server-driven single-page applications````
+**Vite manifest not found:**- Component-based architecturegit clone https://github.com/daffanrezaa/penstashem.git3. **Record Transactions:** Use the Dashboard or Transactions page to log daily entries.
 
-- Eliminates need for API layer
+```bash
+
+npm run build- TypeScript support (optional)
+
+php artisan optimize:clear
+
+```cd penstashem4. **Analyze:** Watch the Dashboard update automatically with your financial health status.
+
+
+
+**419 Page Expired:****Inertia.js 1.x**
+
+```bash
+
+# Clear browser cookies- Server-driven single-page applications````
+
+# Verify APP_KEY is set in .env
+
+# Check session driver configuration- Eliminates need for API layer
+
+`````
 
 - Automatic code splitting## Security
 
-- Asset versioning and hot reload
+**Migration errors:**
 
-### 2. Install Dependencies
+```bash- Asset versioning and hot reload
+
+php artisan migrate:status
+
+php artisan migrate:fresh### 2. Install Dependencies
+
+```
 
 ### Styling & UI
 
+## Contributing
+
 This project implements strict security practices:
+
+Contributions are welcome. Please follow these steps:
 
 **Tailwind CSS 3.x**
 
-- Utility-first CSS framework```bash- **Authorization:** Users can only access and modify their own data (IDOR protection).
+1. Fork the repository
 
-- JIT (Just-In-Time) compilation
+2. Create a feature branch (`git checkout -b feature/improvement`)- Utility-first CSS framework```bash- **Authorization:** Users can only access and modify their own data (IDOR protection).
+
+3. Commit your changes (`git commit -m 'Add improvement'`)
+
+4. Push to the branch (`git push origin feature/improvement`)- JIT (Just-In-Time) compilation
+
+5. Open a Pull Request
 
 - Custom design system configuration# Install PHP dependencies- **Validation:** Server-side validation for all inputs.
 
+## License
+
 - Dark mode variants support
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) file for details.
 
 composer install- **Sanitization:** Auto-escaping of output to prevent XSS.
 
+## Acknowledgments
+
 **Additional UI Libraries**
 
-- **Chart.js**: Data visualization library- **Protection:** CSRF protection and secure session management.
+**Frameworks:**
 
-- **vue-chartjs**: Vue wrapper for Chart.js
+- [Laravel](https://laravel.com) - PHP Framework- **Chart.js**: Data visualization library- **Protection:** CSRF protection and secure session management.
+
+- [Vue.js](https://vuejs.org) - JavaScript Framework
+
+- [Inertia.js](https://inertiajs.com) - SPA Adapter- **vue-chartjs**: Vue wrapper for Chart.js
+
+- [Tailwind CSS](https://tailwindcss.com) - CSS Framework
 
 - **GSAP**: Professional-grade animation platform# Install JavaScript dependencies
 
-- **Lenis**: Smooth scroll implementation
+**Libraries:**
 
-- **@vueuse/motion**: Vue motion directivesnpm install## License
+- [Chart.js](https://www.chartjs.org) - Data Visualization- **Lenis**: Smooth scroll implementation
 
-### Build Tools```
+- [GSAP](https://greensock.com/gsap/) - Animation Library
 
-**Vite 6.x**This open-sourced software is licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- [Lenis](https://lenis.studiofreight.com/) - Smooth Scroll- **@vueuse/motion**: Vue motion directivesnpm install## License
 
-- Next-generation frontend build tool
+**Services:**### Build Tools```
 
-- Lightning-fast HMR (Hot Module Replacement)### 3. Environment Configuration
+- [Railway](https://railway.app) - Hosting Platform
 
-- Optimized production builds
+- [PostgreSQL](https://www.postgresql.org) - Database System**Vite 6.x**This open-sourced software is licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-- Tree-shaking and code splitting<p align="center">
+---- Next-generation frontend build tool
 
-- Native ES modules support
+<div align="center">- Lightning-fast HMR (Hot Module Replacement)### 3. Environment Configuration
+
+**penStashem** © 2026 by Daffan Reza- Optimized production builds
+
+[GitHub](https://github.com/daffanrezaa/penstashem) • [Live Demo](https://penstashem.up.railway.app) • [Report Issues](https://github.com/daffanrezaa/penstashem/issues)- Tree-shaking and code splitting<p align="center">
+
+</div>- Native ES modules support
 
 ````bash <small>Created by <strong>Deefen</strong></small>
 
