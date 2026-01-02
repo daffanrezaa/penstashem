@@ -313,10 +313,6 @@ Contributions are welcome. Please follow these steps:
 4. Push to the branch (`git push origin feature/improvement`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 **Frameworks:**
@@ -338,7 +334,7 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) file for 
 
 <div align="center">
 
-**penStashem** © 2026 by Daffan Reza
+**penStashem** © 2026 by daffanreza
 [GitHub](https://github.com/daffanrezaa/penstashem) • [Live Demo](https://penstashem.up.railway.app) • [Report Issues](https://github.com/daffanrezaa/penstashem/issues)
 
 </div>
