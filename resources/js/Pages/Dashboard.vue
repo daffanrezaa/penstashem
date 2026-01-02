@@ -16,7 +16,7 @@ import {
 import { Line, Doughnut } from 'vue-chartjs';
 import { computed, ref, watch, onMounted } from 'vue';
 import FloatingDollar from '@/Components/FloatingDollar.vue';
-import { useLenis } from '@/Composables/useLenis';
+import { useLenis } from '@/composables/useLenis';
 
 ChartJS.register(
     CategoryScale,
