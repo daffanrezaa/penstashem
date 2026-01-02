@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Figtree:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GLOBAL BASE STYLES */
+@layer base {
+    html {
+        scroll-behavior: smooth;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+        @apply bg-paper-texture text-ink;
+    }
+
+    * {
+        -webkit-tap-highlight-color: transparent;
+    }
+}
+
+/* NEWSPAPER TEXTURE BACKGROUND */
+    .bg-paper-texture {
+        background-color: #F4F1EA;
+        background-image: 
+            linear-gradient(rgba(244, 241, 234, 0.92), rgba(244, 241, 234, 0.92)),
+            url('/images/newspaper-background.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+    }
+
+.dark .bg-paper-texture {
+    background-color: #050505;
+    background-image: 
+        linear-gradient(rgba(5, 5, 5, 0.9), rgba(5, 5, 5, 0.9)),
+        url('/images/newspaper-background.jpg');
+}
+
+.dark {
+    @apply text-[#E5E5E5];
+}
+
+/* LIST TRANSITIONS (Vue TransitionGroup) */
+.list-enter-active,
+.list-leave-active {
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.list-enter-from,
+.list-leave-to {
+    opacity: 0;
+    transform: translateX(-20px);
+}
+
+/* UTILITY: BRUTALIST SHADOW */
+.brutalist-shadow {
+    @apply shadow-[4px_4px_0px_0px_rgba(0,0,0,1)];
+}
+
+.brutalist-shadow-lg {
+    @apply shadow-[8px_8px_0px_0px_rgba(0,0,0,1)];
+}
+
+/* UTILITY: INK EFFECT (Optional highlight) */
+@keyframes ink-spread {
+    from { width: 0%; }
+    to { width: 100%; }
+}
+
+.animate-ink {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: ink-spread 1s ease-out forwards;
+}
