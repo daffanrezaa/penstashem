@@ -11,4 +11,4 @@ cmds = [
 cmds = ["npm run build"]
 
 [start]
-cmd = "php artisan migrate --force && php artisan db:seed --force && php artisan serve --host=0.0.0.0 --port=${PORT:-8000}"
+cmd = "php artisan migrate --force && php artisan user:create-admin admin@penstashem.com 'Admin User' password || true && php artisan serve --host=0.0.0.0 --port=${PORT:-8000}"
