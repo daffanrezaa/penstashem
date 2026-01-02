@@ -1,0 +1,1 @@
+@keyframes float-dollar{0%,to{transform:translateY(0) rotate(0) scale(1)}50%{transform:translateY(var(--y-offset)) rotate(var(--rotate-deg)) scale(var(--scale-to))}}.will-change-transform{will-change:transform}
